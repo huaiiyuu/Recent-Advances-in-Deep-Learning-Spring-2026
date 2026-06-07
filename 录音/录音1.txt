@@ -1,0 +1,833 @@
+What kind of problem would they come solve?
+
+They're what kind of problem?
+
+They're XOR problem.
+
+XOR problem.
+
+XOR.
+
+If, for example, in the example,
+
+I ask you to explain
+
+why the single-layer perception
+
+can't solve XOR? Can you explain? Can you explain?
+
+For example, give examples and draw the graphs. That is a piece model. So, and we connect a lot of neurons together, a lot of single-layer perceptual together,
+
+we get the multi-layer
+
+perceptual.
+
+Multi-layer perceptual normally is a non-linear
+
+is a non nonlinear model. Nonlinear model except you purposely force it
+
+in fully linear, just except. Except. Right. Normally that is a nonlinear model.
+
+Right. With activation functions could be chosen as activation function be chosen as what?
+
+The activation function
+
+the
+
+Activision
+
+Vision functions. We have division function with what? Where they are single boy
+
+Time H
+
+And the other one is the popular one is what?
+
+ReLU.
+
+Right? ReLU.
+
+And the single-moid function
+
+could be used as activation functions. Activation functions it can also be used as one. Activation functions can be further, this can be
+
+used for their, what, for the final output. Functions for the final output, for the final output as the
+
+probability output. One class being predicted as positive. The probability of
+
+one class being predicted as positive. So sigmoid can also act as some other rules.
+
+The other rules that we remember in LSTM or gated recurrent unit.
+
+So as used as a gate.
+
+As a gate, it's binary gate.
+
+Binary gate, right, binary gate.
+
+That's a single one, that's single one.
+
+It's a very important thing,
+
+is a very important one.
+
+And the output, I would say the output layer
+
+normally has three.
+
+Normally we can have three, right? So we can have direct output.
+
+For example, we could have a fine linear layer, a fine linear layer output.
+
+There's no nonlinear activation functions. And the other is the sigmoid. It's the same as sigmoid. And the third one is what? It's a popular softmax.
+
+It's popular softmax. So what's the difference between sigmoid and softmax. What's the difference between their differences?
+
+In what cases we should use softmax and in what cases we should use
+
+sigmoid? You can't say "Oh, attention! Softmax!" I'm asking you, sigmoid
+
+and softmax.
+
+This is the upper layer. So this is the most important two layers
+
+of the two layers of MMP.
+
+Okay, so
+
+the optimization of MP is a very important issue.
+
+So the optimization, that is the optimization, the fundamental approach is back propagation.
+
+Back propagation.
+
+You should be able to know, you should be able to know that how give you an MLP, give an MLP how you can be able to use backpurgation to compute
+
+each one gradient. MLP compute, compute MLP gradient. Compute MLMP gradient. I mean manually. I mean manually. Manually. If any test will ask you
+
+to calculate the gradient, give you architecture, give you loss function and ask you to compute
+
+the gradient forward and backward step by step.
+
+Okay, so once we have the back propagation, we could be able to update their parameters. That is goes to optimizers.
+
+We have introduced quite a few important optimizers. The first one is the vanilla
+
+vanilla Newton gradient descent, right, Newton gradient descent. That is a gradient descent. I would
+
+see just vanilla Newton gradient descent, right, descent. So we didn't do nothing, that is just a bad propagation that we have the
+
+w new equals to w old gradient descent minus the r times the gradient.
+
+Minus r times the gradient themselves. So this will be the simple rule to update your,
+
+your what, update your parent.
+
+But in what?
+
+In deep learning, deep learning, right?
+
+This one does not work very well
+
+because normally we have some challenges.
+
+This challenge will be, normally we have the saddle points and local minimum.
+
+Right. Local minimum and saddle points. Saddle points.
+
+And then there are some other ways because some data is not, you can't get a lot of data
+
+at once.
+
+At once there's something, right?
+
+Okay, so they introduced their momentum.
+
+Momentum. Right. Momentum. introduced their momentum.
+
+Momentum.
+
+- Right. - Momentum.
+
+Momentum is to use their...
+
+Let me see.
+
+Oh, sorry.
+
+Oh, something on foot. oh something
+
+okay
+
+So it's better now, right? Okay, then momentum. So all the rest, so the vanilla gradient descent
+
+does not use any historical information of gradient. That is no use, no use of historical information of grid. No use, no use. momentum and root mean square propagation. Root mean square propagation problem.
+
+And the Adam, the adaptive momentum, Adam.
+
+All the three, they use history information.
+
+History information. Infer of G. Infer of G.
+
+Right. All of them use history information of G.
+
+But momentum uses the first order
+
+information of the grid. First order. First order infer of grid. And root mean square propagation simply use their...
+
+How can I see this?
+
+Perhaps it's better to...
+
+I will get this off.
+
+Okay.
+
+So this uses the second order infer of grid.
+
+Second order infer of grid.
+
+Do you disagree with me?
+
+Do you disagree with me?
+
+Okay.
+
+Second order infer of g.
+
+But the use of second order information of g, the use of them, they have different rules against this one. Because the motivation using the second order is because different directions. You might have different learning rate. So that is adaptive learning rate.
+
+And this is used in first order equation to
+
+evaluate the vibration of the
+
+learnings. Availate the vibration of the learnings.
+
+is a combination of those two goes to add. Combination of the momentum
+
+equation and root mean square, the information goes to add. So they combine
+
+all the first and second, second in full of, of gradient themselves.
+
+So we must know their differences. I say must know their differences.
+
+And also, this is from the whether they use history information or not, right? And in terms of the
+
+feeding of the data, right? We have the
+
+statistic gradient descent, but this is different from this trend,
+
+optimizer from a statistic gradient descent. Through test gradient descent, we have extreme cases.
+
+So normally we have extreme cases.
+
+One is fit examples one by one.
+
+Examples one by one.
+
+Fit examples one by one.
+
+This is very slow. This is very slow.
+
+We normally need to have a mini-batch statistic gradient.
+
+This is called mini-batch. Mini-batch.
+
+Statistic gradient descent. Statistic gradient descent. test gradient descent through test gradient descent
+
+mini-batch of course we will have a hyper parameter here we will have a batch size we have a batch size
+
+this is a one important hyper parameter normally you need to That is, one by one and mini-batch.
+
+And in contrast to the strategic gradient descent,
+
+strategic gradient descent,
+
+we normally have a batch gradient descent.
+
+Batch gradient descent.
+
+So the batch gradient descent is performed
+
+gradient descent for the whole batch of data. So the
+
+statistical gradient for extreme cases here and the batch gradient extreme case here
+
+for the for the mini batchdecent is something in between. So we must know their differences.
+
+Need to know their differences. Okay, so these are optimizers.
+
+Okay, this is
+
+a note. We can't write here, right?
+
+But anyway, so I will live this off. Do you want to take pictures?
+
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Yeah.
+
+Okay.
+
+Yeah.
+
+Okay.
+
+Okay.
+
+Okay.
+
+Oh.
+
+Oh. Where is he? I don't know. Abida.
+
+What's he wrote down?
+
+Oh, where is he?
+
+This is not...
+
+Oh, that's "See our life".
+
+See our life.
+
+That's "See our life".
+
+Okay, great.
+
+I hope you can write on this one.
+
+But anyway, so that is the fundamentals of deplanning, fundamental deplanning, right?
+
+Okay, then it goes to a specific family of deplanning, it is called convolutional neural nets.
+
+That is called, in short words, it's C-A-A.
+
+For the CNA, they need to know the architectures.
+
+That is how to construct a CNN.
+
+How to construct a CNN.
+
+Especially we know that something is called convolution. For example,
+
+if I use a
+
+convolutional kernel of a certain size to convert
+
+with an image of another size,
+
+do we know the size of the
+
+resulting feature maps.
+
+The resulting feature maps and feature dimensions.
+
+The dimensions of the tubes is output.
+
+For CNs, we also have another layer,
+
+it's called polling layer.
+
+Polling layer, for example,
+
+max polling layer, max polling layer, called polling layer. Polling layer. For example, max polling layer.
+
+Max polling layer.
+
+Max polling layer.
+
+So after max polling, what is the size of the feature maps?
+
+So what are the number of parameters in a max polling layer?
+
+Are there any parameters?
+
+What are the number of parameters in a max polling layer. Are there any parameters? What are the number of parameters in the max polling layer?
+
+Right, max polling layer. One thing I need to forgot
+
+to mention, but later on I will come back. Okay.
+
+So, and also we'll have some other linear layers
+
+other linear layers, we need to know, for example, their structures.
+
+Each layer, how many parameters, how can we determine the number of parameters, what are those parameters, and etc.
+
+So that is the fundamentals of CNA.
+
+And different models, different models of CNN.
+
+Different models of CNN.
+
+So we have a lot about different models of CNN.
+
+So the first one, the grand daddy model of CNN
+
+is the La Queensland. La Queensland. model of Xian'en is their Le-coincinnate.
+
+Le-coincinnate. It's called Le-slate.
+
+Right, Le-coincinnate.
+
+Right, Le-coincinnate.
+
+And the other one is actually their
+
+elix.
+
+Elix-less.
+
+Right, the other one is elix-less.
+
+And the third one,
+
+and then we can, the third one, and then we can,
+
+the third one is just with their development
+
+of their computation of their ImageNet challenge.
+
+Right, and then we have the VGG,
+
+VGGNet, VGGNet.
+
+And then we have the what?
+
+InceptionNet. And then we have the one, InceptionNet. InceptionNet. It's Google InceptionNet. InceptionNet.
+
+So, I mean, part of me didn't know what makes VGGNet special. What makes VGGNet special, for example. I ask you
+
+in the choice questions. What are the special things about VGGNet? Is that factorization
+
+of the convolution? For example, something like that. And in exception we have different versions.
+
+Version 1, version 2, version 3, version 4
+
+we have different versions. Version 1, version 3, version 4
+
+different versions.
+
+Different versions, that is version 1, version 2, version 3, and version 4.
+
+Among these versions, we have a very important concept.
+
+It's called channel compression.
+
+Channel compression. channel compression and/or expanding.
+
+Channel expanding or channel compression.
+
+What do we normally do to compress our channels or expand our channels?
+
+So what are the strategies for us normally use to do?
+
+I suppose that you will know it.
+
+But I suppose that you will know it.
+
+So all of those different versions are there differences.
+
+All of those are very important.
+
+They form actually the structure of the
+
+CRI topics, right? Another thing I forgot to mention is here is about normalization, right?
+
+Because I will write, right? That's right. So normalization.
+
+Normalization and regularization of the deep learning network, deep learning network.
+
+So normally we have the batch normalization and we have the batch normalization and we also have layer normalization.
+
+Layer normalization.
+
+And we have introduced the layer normalization in what context?
+
+In what? In the transformer context.
+
+Layer norm.
+
+So what are the differences about batch norm and layer norm?
+
+How many parameters if we use layer LNN or if we use batch norm.
+
+If I'm feeding a single example to the network, what kind of normalization should we use?
+
+Should we use? So all those questions might be related or might be tested. And the regularization, we have the different
+
+couple regularization methods, L1 regularization and L2 regularization. We have a
+
+specific name, it's called VIT-ZK.
+
+When we talk about mid-decay, this relates to L1 norm or L2 norm, mid-decay. Okay, so that is about the normalization and regularization strategies. Okay, so let's go to
+
+recurrent neural nets.
+
+Recurrent neural nets.
+
+So for recurrent neural nets
+
+we have the
+
+Because the CNS is great data
+
+Normally, this is great data. We also call it spatial data
+
+Spatial data they process spatial data and sometimes we will have
+
+We will have what we will have the sequential data
+
+sequential data. Sequential data that is using the time information. In these cases, we need to use recurrent neural nets. For the recurrent neural nets, we introduced the vanilla recurrent neural nets.
+
+Reduce the vanilla recurrent neural nets. So what could be constitute a simple
+
+unit in vanilla by N is just a simple one. Could be just a simple MLP and replicate
+
+replicate that's vanilla one but the drawbacks of the vanilla are ends we
+
+will have their gradient vanishing problem
+
+gradient vanishing problem.
+
+gradient vanishing problem.
+
+This is a comes in nature
+
+because the design of the vanilla is
+
+tends to be held a vanishing gradient problem
+
+gradient vanishing problem. Right? gradient vanishing problem., gradient vanishing problem, gradient vanishing problem.
+
+How to solve this problem? Normally we will have another structure called LSTM, long short term memory, LSTM.
+
+We have different gates, input gates, update gates, a lot of
+
+different gates. A lot of different gates. A lot of different gates and the
+
+gates introduction, the introduction of these gates, the use of these gates
+
+is to what? The use of these gates and you reduce the memory status, it's called memory status.
+
+Is to evaluate, is to validate the vanish ingredient, PR. And a variance because LSTM,
+
+they have four different type of gates. Four different type of gates.
+
+And it's a little more complicated. Later on, people
+
+developed something called gated recurrent units.
+
+Gated recurrent units. This one simplifies the
+
+architecture of LSTM but simultaneously keep the advantage to be able to
+
+validate the problem of vanishing grid.
+
+Of course it also has a lot of gates. It has three gates.
+
+Okay so this is a simpler version of LSTM. So this is the architecture of IANs.
+
+But later on, so because we want to solve the bottleneck problem in translation. Bottleneck. Bottleneck problem. In what? In machine translation, they introduce the what?
+
+They introduce the what? The attentions.
+
+We introduce attentions. Right?
+
+Introduce attentions. Because in the what?
+
+When the R RN used for machine
+
+translation then from one language to another language we have in a
+
+traditional if you use RN that we will have a single context vector. So every
+
+information is it's bottlenecked by those context vectors.
+
+But now introducing about the attentions, now we could be able to have a context vector
+
+per time step.
+
+Per time step.
+
+That is, it actually goes to attentions.
+
+Right, attentions.
+
+So it's okay for me to wipe this off.
+
+Wipe this off. Is it okay now? Wipe this off.
+
+Can we right here?
+
+Right here can we wipe this off? Is it easy or not?
+
+Oh, it's not good. It's not good.
+
+I'm going to see the phone.
+
+I'm going to see the first one. Okay.
+
+Okay.
+
+So that's the power of this crust.
+
+Temper.
+
+Okay, so we go to know that attention is not firstly introduced in transformers.
+
+It's not, attention is not first introduced for transformers.
+
+It's not first introduced for transformers. It is well before the proposal of transformers.
+
+Well before. Right. Well before. So transformers is just only use, a model only use the attention part in the I and A with
+
+attentions, I and A with attentions. Right. Okay, so we then go to transformers.
+
+Then goes through transformers. Right. So the transformers actually what we need to know is the basic
+
+unit of the attention in number of parameters and complexity.
+
+Complexity.
+
+For example, if I give you an architecture of transformers, can you be able to compute its
+
+complexity? The other computer is complex. In terms of the flux, in terms of
+
+flux. This is a basic unit. So the other concept is self attention.
+
+Self attention.
+
+Introduce about self attention.
+
+So what is the self attention?
+
+What is the self attention?
+
+And the other one is the
+
+cross attention.
+
+Cross attention. So what's the difference between
+
+self attention and cross attention?
+
+What are the differences? What are the differences
+
+cross attention and self attention?
+
+And for the self attention, we normally
+
+have two different versions. One is a full self attention,
+
+full self attention, and the other is mask self attention. Mask self attention, right?
+
+So in what cases we need to know we could use full self-attention, in what cases we can use mask self-attention, or we have to use mask self-attention.
+
+And what's the advantage?
+
+What is the advantage?
+
+What's the advantage of using mask self-attention? What's the advantage of using mask self-attention?
+
+What's the advantage and why do we use mask self-attention in transformers?
+
+Compared to what?
+
+Compared to R-N-N plus attentions.
+
+Compared to R-N-N plus attentions. Compared to Rn plus attentions.
+
+So what's the advantage of using transformers with mass attention compared to Rn with attentions?
+
+What are the advantages?
+
+Main purpose.
+
+So you need to know the advantage of the transformers.
+
+Right. So actually combined for actual transformer block we have the multi-head
+
+head attentions, multi-head attentions. Multi-head
+
+multi-head attentions, multi-heads. So what's the relationship
+
+between the number of heads and its complexity?
+
+Complexity, right? And why do we
+
+need to have a multi-head rather than a single head?
+
+Right? So multi versus single
+
+multi versus
+
+right multi versus single that's a multi-head attenuation right multi-head attenuation right
+
+so this is uh this is uh they are uh this is the the the fundamentals about the transformers.
+
+The fundamental about transformers. Especially about the parameters.
+
+And the other thing you need to know, for example,
+
+you need to know, of course, how
+
+attention being computed.
+
+Compute attention.
+
+Compute attention.
+
+For example, I ask you to write down the formula of the
+
+behavior, the formula of computing attention.
+
+You should be able to write down, correct,
+
+and explain the meaning.
+
+Explain the meaning.
+
+So this means that every part of the fundamentals of attention
+
+needs to be mastered.
+
+Needs to be mastered.
+
+Every part of the attention.
+
+Okay. every path of the attentions, every path of attentions.
+
+Okay, so that is the other one, and this is the fundamentals.
+
+And then we go to models of transformers.
+
+Models of a transformer.
+
+And we have one.
+
+First, beginning transformer was proposed for languages, right?
+
+And then we extended to virings, that is V-RAN transformers.
+
+V-RAN transformers. So I forgot to mention one thing, about very important thing is the positional encoding. How you can have different positional encoding methods.
+
+One is the absolute positional encoding. Absolute positional encoding.
+
+Layable positional encoding.
+
+So should we be able to learn the positional encodings?
+
+Layable positional encoding.
+
+We spend a lot of time on this thing.
+
+Spend a lot of time on this thing.
+
+And the V-Lane transformers. For the V And the variant transformers, for the variant transformers,
+
+variant transformers and how can you construct variant transformers?
+
+For example, step by step, step by step.
+
+It's quite easy, right, quite easy.
+
+Spill it into patches, right?
+
+And treat each patch, spread image into patches, and treat each patch as
+
+token and add the position of embeddings, but 2D cases, and then perform like this. Perform
+
+the satellite transformers. And one important thing about
+
+vision transformers, they have something specific token is called CLS. So what is
+
+rule? The rule of CLS. Why do they have classification toolkits? What's the meaning? What is the meaning of
+
+the classification toolkits? What's the meaning? Okay, that is a variant transformer. Varian
+
+transformer, I would say this is a vanilla version. Vanilla version. And we have more advanced version because their vision transformers does not consider the scale of the object itself.
+
+So to consider the vision problem we need to consider the scale of the object information.
+
+of the object information. Scaled object information
+
+that actually goes to an advanced transformer
+
+is called what? Swing transformer.
+
+Swing transformer. Swing transformer
+
+used shifted window
+
+used shifted window, used shifted window, plus one, multi scale.
+
+Multi, but shifted window, shifted. Shifted window plus multi-scale. So how, so what's the rule of multi-scale?
+
+What's the rule of multi-scale? What's the rule of multi-scale? Right, so how the multi-scale
+
+being achieved in one? How the multi-role being achieved in three transformers?
+
+They have the patch merging.
+
+Patch merging.
+
+Patch merging.
+
+They merge the patches within a window.
+
+Patch merging step by step.
+
+And also, they introduced shifted windows.
+
+Introduced shifted windows. So what's the rule introduced shifted windows.
+
+So what's the role of shifted windows?
+
+What's the role of shifted windows?
+
+Shaped windows is to enable the cross window in actions or communications of the patches. And the Swing transformer compared to the
+
+VN transformer, what's the complexity of the Swing transformer? What's the complexity of
+
+the Swing transformer compared to the vanilla VN transformer?
+
+transformers. Because these three transformers, the tokens, the tokens in the actions is restricted to
+
+within a window. And you should be able to know this. So this is a fundamental thing,
+
+is a fundamental, this is a fundamental thing of the transformation cells. Okay so that is a model of our C vision transformers.
+
+Okay so I will not introduce, I will not recap based on the order of the weeks.
+
+I would like to recap based on the organization, how they organize.
+
+Let's see the models of what?
+
+Of languages.
+
+Model of languages.
+
+The model of, let's say, languages. Language transformers.
+
+Language transformers. This is what we introduced last week
+
+and this week. Last week and this week.
+
+So, do you want to have a break?
+
+Anyone of you want to have a break?
+
+Anyone of you want to have a break?
+
+We want a break?
+
+Okay, break about five minutes?
+
+Right, five minutes.
+
+Okay.

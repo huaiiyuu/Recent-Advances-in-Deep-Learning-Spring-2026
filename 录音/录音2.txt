@@ -1,0 +1,583 @@
+Everybody is back. Let's continue. Let's continue our review lecture.
+
+So the models of languages, we have, immediately we have BERT. So what actually the pretext, P-R-E, pretext.
+
+What the pre-text task of BERT. What are the pretext tasks? So we have the next sentence prediction
+
+and we have the map prediction. So BERT, we have two specific tokens and again we have the CLS tokens and we have the separate tokens.
+
+What are the rules? Why do we need to have those specific tokens? For example, specific
+
+tokens. And where do we normally place the class 2k? Where the position is
+
+positioned for it? Right, that is a BERT. And then we have the variance of GBT.
+
+Right, GBT, generally pre-training, the pre-training transformers, right?
+
+GBTs.
+
+So what are the pretext...
+
+pretext...
+
+tasks...
+
+of GBTs, pretext tasks of GBTs, right?
+
+For example, is what?
+
+Is a...
+
+simply...
+
+next to impre-t's simply next token prediction.
+
+So does the GPT have the class tokens?
+
+Does GPT have class tokens?
+
+Does GPT have class tokens?
+
+Does GPT have separate tokens?
+
+SEP, right?
+
+SEP, right?
+
+Separate tokens, right?
+
+Separate tokens?
+
+And whatsoever.
+
+And what are the few-short learnings?
+
+Few-short learnings. Oh, GPT. What are the few-short learnings of GPT. What are the few short linings of GPT?
+
+Do we need to tune the parameters of the parameters?
+
+parameters of GVT if we go to short linings, if we feel short linings. So specifically that
+
+is in context learning that we introduced today. That is in context learning. And in contrast to in context learning we have the
+
+pyramid efficient value. We will talk about later. We will recap this later on. Okay, so I will do you want to take a picture of this?
+
+Okay.
+
+So I would like to have this one.
+
+If you are smart enough, you might have a feeling. If you are smart enough.
+
+Okay.
+
+So, it's okay for me to write this off?
+
+No, I'm not going to write this off. I'm going to put it here.
+
+I'll write this off.
+
+I can put it here. I'll wipe this off. Okay. Okay, so another topic we have covered very important is called self-supervised learning.
+
+Self-supervised learning.
+
+So in self-supervised learning approach, right,
+
+we have very important concept is pre-test tasks.
+
+Pre-test tasks. So what are those pre-test tasks?
+
+Normally, we can construct.
+
+What are those different pre-test tasks?
+
+What are those different pre-test tasks?
+
+So we could normally
+
+have, they would normally have, in order to perform.
+
+So, for example, different tasks.
+
+For example, predict relationship between different
+
+approaches and see if they take so problem and whatsoever, right?
+
+You have a lot of predict rotations, right?
+
+Image combination, repeat, image reconstruction, a lot.
+
+And a very important thing is the one, a very important thing is their discriminative protest task.
+
+Very important thing is the discriminative protest task. Discrimination. Discrimination that it goes to their contrastive relating.
+
+contrasting relating. You must know contrasting relating. You must know how to actually compute the loss functions of contrasting relating. You must be able to explain the contrasting learning.
+
+So contrasting learning is very important.
+
+So based on contrasting learning, we introduced several models to perform sexual learning, especially
+
+for what?
+
+For visions. models to perform sexual learning especially for for what for visions the one of the things is called
+
+sim right sim one sim sim lr sim contract simcr right simcr contract learning over representations, right, SIM-CLR. SIM-CLR, right. You need to know
+
+for example how in CLR how we can build the loss
+
+functions of contrast learning, right, and there
+
+for example if I ask you to use a pseudo code
+
+to explain their
+
+their contractive learning, the to explain their
+
+contrastive learning process in
+
+SIMCLR. Normally you have
+
+two pipelines, one batch and the other batch
+
+you augmented and then do their contrastive
+
+or some of them right, okay
+
+I leave this in your cell to figure this out
+
+right, okay
+
+Kant does single cell
+
+right
+
+okay, and
+
+later on
+
+also introduced the MAE, MASK Auto-encoders. MASK Auto-encoders.
+
+That is MASK taking some patches out and then reconstruct. So what's the output of the encoders be able to, how the output of the encoders be able to fit into the decoders of the MAE.
+
+You need to do something, you need to do something special in order to actually, in order to train the MAE.
+
+And the other thing is that during testing, do we use the decoders or encoders of the MAE?
+
+Right, right. Do we use the decoders or encoders of MAE. Okay, and for the CMLR, they also have some
+
+disadvantages. Disadvantages.
+
+They also have some disadvantages.
+
+What are those disadvantages of CMLR? How we normally
+
+improve, overcome these ones.
+
+Overcome these ones. Right. Overcome these ones. improve, overcome this one.
+
+So there is another version of the CMIR, it's called momentum what?
+
+Momentum what is proposed by Kevin is using the negative K branch, negative K branch, right, to increase what?
+
+Increase the number of negative pairs.
+
+Number of negative pairs, right.
+
+Something like this, right.
+
+So the sense of what the learning is very important.
+
+So in the multi-modal approach, we introduced CLIP.
+
+We introduced CLIP. CLIP means how you align, how you align the text and images.
+
+and images. How you align the text and images. How you use clip to perform zero shot recognition. Zero shot recognition. When we use this approach, especially about CMRR and clip, normally we have something called projection head.
+
+projection head. We have introduced the concept of our projection head. What's the
+
+rule of this projection head? Normally that we use the CMRR, right?
+
+The momentum, COCO, and as well as CLIP, right, their projection head. Okay, so that is basically the architecture of
+
+self-superdomainting. I would say this is also an important topic that we need to pay
+
+attention to, very important topic. Very important topic. Okay, that is 6.8. And another topic we have introduced is about
+
+what? Image generation. Image generation. And we introduced three fundamental models. One is VAE, right?
+
+The original autoencoders.
+
+The original autoencoders.
+
+And we derive the bound in VAE,
+
+it's called ELBO,
+
+evidence lower bound,
+
+evidence lower bound.
+
+Right, evidence lower bound. Evidence lower bound.
+
+It contains two parts.
+
+Two parts. You need
+
+to know the meanings of those two parts.
+
+You need to know the meanings of those two parts. So for example,
+
+what's the meaning of the first part?
+
+It's performed image reconstruction, right? Perform something like that, right?
+
+And the second part, what's the meaning of the second part?
+
+Is use Keral Darragens for what? In what cases? What is rule, right? What's rule?
+
+But the deviation of EFBO, the deviation, I would say the deviation process of ELBO will not be tested. So, if we spend a time there to
+
+derive the formula of ELBO, it's not tested. We are not tested. That's it.
+
+That's easy, right? If we test it. But the meaning of ELBO, you need to know the meaning.
+
+The meaning, right? The meanings. Okay. The meanings.
+
+That is variational autoencoders.
+
+And the other is GAN, Generative Adversal Neuralness.
+
+GAN, Generative Adversal Neuralness.
+
+So what's the difference between GAN and VEE?
+
+What's the difference between GAN and VE? What's the difference between GaN and VE?
+
+Right? GaN and VE.
+
+So, does we need to specify their form of the distributions in GaN?
+
+Do we need to specify?
+
+So in Generative Adversal Neural Net, we normally have a generator and plus a discriminator discriminator discriminator so what are their rules
+
+what are their rules what are their rules what are their rules
+
+what are their rules in the discriminator what are their rules they do so how a gun might be changed.
+
+So they use the mini max strategy, counterplay.
+
+And there are some disadvantages.
+
+There are some disadvantages.
+
+Vontages. There are some disadvantage of GANs. They might have something called mode collapse.
+
+So what are the mode collapse in GANs? For example, in optimization, the GANs, they tend to have some problem, right? Tends to have some problems. What are those problems?
+
+What are those problems, guys?
+
+Okay, and the difference between VE and GAN.
+
+And later on, there's sophisticated methods
+
+about Diffurines.
+
+How about Diffurines?
+
+Diffurines, right, Diffurines.
+
+Right, Diffurines.
+
+So what are the Diffurens. So what are the diffurens? Diffurens is called DDPM. The first D is called denoising. Denoising, diffure diffusion probability models. Right, denoising diffusion probability.
+
+So noise is an important part of the diffusion.
+
+So we need to know the forward...
+
+We need to know the forward process of diffurance. Of course we need to know their backward as well.
+
+But the forward process is a bit simple to know.
+
+You could add the noise. You could be able to add the noise.
+
+So I could be able to generate, for example, that I could generate, for example, the
+
+They work. They could be able to generate the example time t based on the examples at time t minus y.
+
+Right? By adding some noise here. So what are these probability functions? What is probability function? this property. And luckily enough, once we have this one, we could be able to infer directly
+
+that the noise version directly from the original version, original clean image. So what are they? What are they? So what are they? So what are they? What are they? And they work. And they're backward, they're denoising, they're denoising process. right? Denoising process, we need to know their principles.
+
+Right, principles. We need to know their principles. For example, in the denoising process, what's the objective function of your model.
+
+You predict what?
+
+You predict what?
+
+What do you predict in the denoising process?
+
+What do you predict in the denoising process?
+
+So those type of things
+
+relates to their diffurance.
+
+Related diffurance.
+
+Of course, we will not ask you to
+
+derive the ELBO for difference, no. No ELBO for difference. I mean no ELBO, no deviating. No derive.
+
+Derive deviating.
+
+No deviating of
+
+for difference. You don't need to know. But you need
+
+to know in the difference what he's doing.
+
+What he's doing. Right. What's predictions?
+
+What's he doing? Okay. Okay. So that is image generation. So for that, for one
+
+important thing is conditional generation. It is conditional generation. I will wipe this off. Is that okay?
+
+I wipe this off.
+
+It can work.
+
+Okay, so the conditional generations.
+
+Conditional generations, right.
+
+So conditional generations, especially for the gun.
+
+So how we normally add the conditions to the gun. So how we normally add the conditions to the gun. Do we just add the conditions to
+
+the generator, to the introduced several different type of conditional
+
+generations for difference. One is what? One is the classifier, classifier guided different models generation class guided generations different models
+
+are the other is they don't like the classifier.
+
+That's the classifier free guided generations.
+
+And the other is classifier free guided generations.
+
+So in addition to this one, we introduce more advanced version of
+
+conditional generations is control net.
+
+Control net.
+
+Control net, right, do you still remember control net?
+
+They have the zero conclusions introduced,
+
+zero conclusions, but control net, control net.
+
+So different of conditional generations.
+
+So there, I'll say there
+
+I would put arithmetic here.
+
+Arithmetic here. Connecting to them.
+
+Okay, so that is image
+
+generations. And the other topic
+
+is about object detections.
+
+Object detection.
+
+So, over detections, we have the RCNN, we have RCNN, region proposal convolutional neural nets, and we have the fast RCNN, and we have the fast RCNA and they have the faster RCNA.
+
+Faster RCNA.
+
+And what's the rule, for example, of the reading proposals used in faster RCNA?
+
+What's the rule, for example, used is used in the fast RCN or RCN?
+
+It's for what? What kind of problems?
+
+Are those actually models, they are single-stage or multi-stage?
+
+Single-stage or multi-stage? single stage or one stage. So these are two stage, two stage object detections, two stage
+
+object detections. Okay, so and theSD, single stage detector. So compare
+
+to those methods, what's the advantage of this one? What's the advantage of this one? What's the advantage of this one? Or what's the disadvantage?
+
+What's the disadvantage?
+
+Right. And this is the single, this is two-stage and single-stage.
+
+And we have the transformer-based ones.
+
+Transformer-based ones. So they may introduce three ones. One is DETR, DETR, detection transformers. Detection transformers. So for the detection transformers, for example, what's the rule
+
+of object queries?
+
+What's the rule of object queries? What are their rules?
+
+What's object query used?
+
+How do we initialize the object queries?
+
+Normal. And the other ones we
+
+introduce is called Deno, detection transformer
+
+with improved object.
+
+detection. It's called Dino. It's called Dino. So what's Dino special compared to
+
+Delta? So it introduces some negative ground truth pairs. And then introduce some specific toolkits to perform the contrasting lane.
+
+And the other thing is grounding denos.
+
+Grounding denos. Grounding denos. Grounding denos is performed the what? Perform the cross modality detections, cross modality
+
+detections. So you input text, you input text and it be able to detect the corresponding regions. For example, detect the red cat.
+
+Detect the red cat or blue cat, the cat on the right. You have several cats on the right.
+
+That is grounded in those. So we also introduced some fundamentals about the object detection.
+
+One is how evaluate is called MIOU.
+
+MIOU, that is mean one, MIU, mean object, mean intersection over unit, how you can compute this.
+
+How you can compute this. How you'll be able to compute this. And they also introduced some very important thing
+
+is non-maximum suppressions.
+
+Non-maximum suppressions.
+
+Non-maximum.
+
+So what's the rule of non-maximum suppressions?
+
+What's the rule of non-maximum suppressions?
+
+Is for what?
+
+So to win you in all those lines, in which cases we use non-maximum suppression. It's for what? So to win you in all those lines, in which cases
+
+we use non-maximum suppression and in which cases entry we do not use. We do not use it.
+
+Non-maximum suppression. That is object detection, a very important topic. And this is obligated. And we have the last one is PEFT.
+
+PEFT. PEFT. PEFT is very easy now.
+
+Parameter efficient fine tuning.
+
+It's contrastive to what? Contrastive to
+
+in context learning, that is
+
+Fusho learning.
+
+But this one,
+
+no parameter being
+
+trained, but this one we have
+
+parameter being trained.
+
+We have parameter being trained.
+
+So normally that we have several approaches.
+
+One is the top care layers.
+
+Top care layers.
+
+Tune the top care layers.
+
+Tune the fine-tune the top care layers.
+
+For example, if I ask you to name several approaches
+
+of peft, you need to say, oh, why is top care layer?
+
+Tune top capi.
+
+And the other one is they use the adapters.
+
+Adapters, using the adapters, right, to insert actually into their
+
+into the models themselves, adapters.
+
+And the third one is pre-fixed fine-tuning.
+
+It's to insert some dummy tokens and tune these tokens. But inserting process is
+
+to attach some dummy K and V's to existing K and Vs themselves.
+
+And the most important thing is the so-called LoRa. LoRa.
+
+Low-rank adaptation.
+
+So what's the advantage?
+
+What's the advantage of Laura? What's the advantage of Laura?
+
+The advantage. What's the advantage of Laura?
+
+Advantage of Laura.
+
+So does Laura
+
+actually introduce inference latency?
+
+If not, why?
+
+If not, why?
+
+Why does LoRa introduce inference latency?
+
+If not, then why not? If not, then why not?
+
+If not, then why not?
+
+For example.
+
+If not, then why not?
+
+So LoRa is very simple.
+
+It's very simple.
+
+Very simple, but very important.
+
+Very important.
+
+Right, very important.
+
+So I think that that's pretty cover that what we have introduced of all the topics in this
+
+meta. I think that's pretty cover anything I have missing. So all things are there.
+
+the scope. I think we're likely to be exam. I say likely to be exam. I don't
+
+guarantee you that all the exam questions be in this
+
+to our lecture. Every possible material that we have introduced or in the lectures or in the labs that they are the exam materials.
+
+Okay, so any questions? Any questions?
+
+Any questions you want to ask? No question. It's pretty complete. Pretty complete. Pretty complete.
+
+So if you need any questions, if you want to ask anything, just come forward. You need to answer in English.
+
+I need to make sure.
+
+This is what means. Answer in English.
+
+Answer in English.
+
+You need to answer in English. You will not get marks. You will write it in Chinese.
